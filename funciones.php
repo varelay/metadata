@@ -40,8 +40,8 @@ if (isset($_POST['enviar_meta'])) {
     $SPLIT_BY_COL = revisar_dato($_POST['SPLIT_BY_COL']);
     $MAPPERS = revisar_dato($_POST['MAPPERS']);
     $HARDDELETE = revisar_dato($_POST['HARDDELETE']);
-    $CREATED_DTTM = revisar_dato($_POST['CREATED_DTTM']);
-    $UPDATED_DTTM = revisar_dato($_POST['UPDATED_DTTM']);
+//    $CREATED_DTTM = revisar_dato($_POST['CREATED_DTTM']);
+//    $UPDATED_DTTM = revisar_dato($_POST['UPDATED_DTTM']);
     $CREATED_BY = revisar_dato($_POST['CREATED_BY']);
     $UPDATED_BY = revisar_dato($_POST['UPDATED_BY']); 
     $APP_ID = revisar_dato($_POST['APP_ID']); 
